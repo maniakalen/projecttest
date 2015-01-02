@@ -14,6 +14,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.faces:jsf-api:2.2.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.faces:jsf-impl:2.2.9" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.faces:2.2.8-03" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.34" level="project" />
   </component>
 </module>
 
