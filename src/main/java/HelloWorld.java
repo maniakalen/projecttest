@@ -14,6 +14,15 @@ import java.sql.SQLException;
 public class HelloWorld {
     private DataSource dsc;
 
+    public void setMessage(String message) {
+        this.message = message;
+    }
+    public String getMessage()
+    {
+        return this.message;
+    }
+
+    private String message = "Hello world!";
     public HelloWorld() {
         try {
             Context initCtx = new InitialContext();
@@ -24,7 +33,7 @@ public class HelloWorld {
             System.out.println("WelcomeBean instantiated");
         }
     }
-    public String getMessage() {
+    public String getData() {
         String data = "";
         try {
             Connection conn = this.dsc.getConnection();
